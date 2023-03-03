@@ -1,0 +1,64 @@
+<!--Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Cálamo Andret - 2110383 
+DATA: 03/03/2023-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Envie seu relato!</title>
+    </head>
+    <body>
+        <header>
+            <h3>Conte-nos caso você já presenciou um preço abusivo de uma fruta!</h3>
+        </header>
+        <form action="processadados.php" method="post"><!--Define um formulário HTML que permite ao usuário enviar dados para o servidor.-->
+            <label for="nome">Nome:</label><!--Cria uma etiqueta de texto para o campo de entrada.-->
+            <input type="text" id="nome" name="nome"><br><br><!--for é atributo do <label> deve corresponder ao id do elemento <input> associado. 
+                Type define o tipo de campo de entrada como texto. id atributo identifica o campo de entrada para associá-lo à etiqueta <label>.
+                name atributo define o nome do campo de entrada, que é usado para identificar o valor do campo quando o formulário é enviado.-->
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade"><br><br>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado"><br><br>
+
+            <label for="contato">Contato:</label>
+            <input type="number" id="contato" name="contato"><br><br>
+
+            <label for="nomefruta">Nome da Fruta:</label>
+            <input type="text" id="nomefruta" name="nomefruta"><br><br>
+
+            <label for="preço">Preço da Fruta (R$):</label>
+            <input type="number" id="preço" name="preço"><br><br>
+
+            <label for="local">Onde você comprou:</label>
+            <input type="radio" id="feira" name="local" value="feira">
+		    <label for="feira">Feira</label>
+            <input type="radio" id="mercado" name="local" value="mercado">
+		    <label for="mercado">Mercado</label>
+            <input type="radio" id="sacolao" name="local" value="sacolao">
+		    <label for="sacolao">Sacolão</label><br><br>
+
+            <label for="caracteristicas">O que te chamou atenção na fruta:</label><br>
+		    <input type="checkbox" id="caracteristicas_preco" name="caracteristicas[]" value="preco">
+		    <label for="caracteristicas_preco">Preço</label>
+            <input type="checkbox" id="caracteristicas_cor" name="caracteristicas[]" value="cor">
+		    <label for="caracteristicas_cor">Cor</label><br>
+            <input type="checkbox" id="caracteristicas_nutricao" name="caracteristicas[]" value="nutricao">
+		    <label for="caracteristicas_nutricao">Valor Nutritivo</label>
+            <input type="checkbox" id="caracteristicas_formato" name="caracteristicas[]" value="formato">
+		    <label for="caracteristicas_formato">Formato</label><br>
+            <input type="checkbox" id="caracteristicas_cheiro" name="caracteristicas[]" value="cheiro">
+		    <label for="caracteristicas_cheiro">Cheiro</label>
+            <input type="checkbox" id="caracteristicas_sabor" name="caracteristicas[]" value="sabor">
+		    <label for="caracteristicas_sabor">Sabor</label><br><br>
+
+            <label for="foto">Nos mande uma foto da fruta:</label>
+		    <input type="file" id="foto" name="foto"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
