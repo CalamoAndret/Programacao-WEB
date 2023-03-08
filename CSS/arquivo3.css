@@ -1,0 +1,41 @@
+/* Estilos para todo o documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para a tabela */
+  table {
+    margin: 20px 0;
+    border: 2px solid rgba(2, 131, 71, 0.432);
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 100%;
+  }
+  
+  /* Estilos para o cabeçalho da tabela */
+  table th {
+    background-color: rgba(2, 131, 71, 0.432);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgba(2, 131, 71, 0.432);
+  }
+  
+  /* Estilos para as células da tabela */
+  table td {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgba(2, 131, 71, 0.432);
+  }
+  
+  /* Estilos para o título das tabelas */
+  h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+    color: rgba(2, 131, 71, 0.432);
+  }
+  

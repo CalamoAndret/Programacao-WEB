@@ -1,0 +1,95 @@
+header {
+    text-align: center;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    color: rgb(187, 255, 0);
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  table {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  table th,
+  table td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  form {
+    max-width: 600px; /* Definir uma largura máxima para o formulário */
+    margin: 0 auto; /* Centralizar o formulário na página */
+  }
+  
+  label {
+    display: block; /* Cada etiqueta é exibida em uma nova linha */
+    margin-bottom: 10px; /* Adicionar algum espaçamento entre as etiquetas */
+    font-weight: bold; /* Destaque o texto das etiquetas */
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%; /* Fazer os campos de entrada preencherem toda a largura disponível */
+    padding: 10px; /* Adicionar algum espaçamento dentro dos campos de entrada */
+    font-size: 16px; /* Definir um tamanho de fonte legível */
+    border-radius: 5px; /* Adicionar um raio de borda para tornar o formulário mais arredondado */
+    border: 1px solid #ccc; /* Adicionar uma borda para destacar os campos de entrada */
+    box-sizing: border-box; /* Certificar-se de que a largura total do elemento inclua o preenchimento e a borda */
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px; /* Adicionar algum espaçamento entre os botões de opção */
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff; /* Definir uma cor de fundo para o botão de envio */
+    color: #fff; /* Definir uma cor de texto para o botão de envio */
+    border: none; /* Remover a borda do botão de envio */
+    padding: 10px 20px; /* Adicionar algum espaçamento dentro do botão de envio */
+    font-size: 16px; /* Definir um tamanho de fonte legível */
+    border-radius: 5px; /* Adicionar um raio de borda para tornar o formulário mais arredondado */
+    cursor: pointer; /* Adicionar um cursor de mão quando o mouse passa sobre o botão de envio */
+    transition: background-color 0.3s ease-in-out; /* Adicionar uma transição suave para a cor de fundo do botão de envio */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc; /* Definir uma cor de fundo diferente quando o mouse passa sobre o botão de envio */
+  }
+  
+</style>
